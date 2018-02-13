@@ -4,6 +4,7 @@ project(sockets)
 #add_executable(${PROJECT_NAME} "main.cpp")
 
 add_executable(ServerSelect "server_select.cpp")
+add_executable(ServerSelectPorts "server_select_multipleports.cpp")
 add_executable(ServerPoll "server_poll.cpp")
 
 add_executable(ReceivePThread "receive_pthread.cpp")
